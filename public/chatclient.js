@@ -1,4 +1,3 @@
-// let url = 'http://cluster0.yhd7v.mongodb.net:27017/Cluster0?retryWrites=true&w=majority/chat/';
 // let url = 'http://localhost:8080/chat/';
 let url = 'https://l17-chat.herokuapp.com/chat/';
 
