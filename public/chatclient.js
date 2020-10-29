@@ -1,5 +1,6 @@
-let url = 'mongodb+srv://dbUser:dbUserPassword@cluster0.yhd7v.mongodb.net/Cluster0?retryWrites=true&w=majority';
+// let url = 'http://cluster0.yhd7v.mongodb.net:27017/Cluster0?retryWrites=true&w=majority/chat/';
 // let url = 'http://localhost:8080/chat/';
+let url = 'https://l17-chat.herokuapp.com/chat/';
 
 // GET
 async function get(url) {
