@@ -1,4 +1,6 @@
-let url = 'http://localhost:8080/chat/';
+const config = require('../config');
+let url = config.databaseURI || 'http://localhost:8080/chat/';
+// let url = 'http://localhost:8080/chat/';
 
 // GET
 async function get(url) {
