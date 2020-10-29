@@ -1,5 +1,4 @@
-const config = require('../config');
-let url = config.databaseURI || 'http://localhost:8080/chat/';
+let url = 'mongodb+srv://dbUser:dbUserPassword@cluster0.yhd7v.mongodb.net/Cluster0?retryWrites=true&w=majority';
 // let url = 'http://localhost:8080/chat/';
 
 // GET
