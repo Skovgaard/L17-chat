@@ -139,7 +139,8 @@ submit.onclick = () => submitPostChatMessage();
 // Set enter clicked on tekst field
 const tekst = document.getElementById('tekst');
 tekst.addEventListener("keyup", function (event) {
-    if (event.keyCode === 13) { // Number 13 is the "Enter" key on the keyboard
+    // TODO
+    if (chatrum.value !== 'Alle rum' && event.keyCode === 13) { // Number 13 is the "Enter" key on the keyboard
         submitPostChatMessage();
     }
 });
